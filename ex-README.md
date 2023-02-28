@@ -1,6 +1,6 @@
 ### Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing!
 <div align="center">
-<img src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
+<img src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
 <p>
 🎨 [He/Him] • INFP-T • Student & Self-Passionate Dev <br>
 ⌨️ Python • Learning Front-end • Visual Studio Code <br>
