@@ -6,7 +6,7 @@
     <p align="left">
     🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
     ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
-    🕐 LMSE • Biozone • UofT • Toronto • 🍁🇨🇦  <br>
+    🕐 LMSE • Biozone • University of Toronto • 🍁🇨🇦  <br>
     </p>
 </div>
 
