@@ -18,7 +18,7 @@
 <hr>
 
 <p>
-<details>
+
 <summary style="font-size:40px"> 🔖 Some Statistics </summary>
 <a href="https://github.com/Zhiqing-Xu">
 
@@ -27,7 +27,7 @@
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=Zhiqing-Xu&include_all_commits=true&show_icons=true&count_private=true&show_owner=true&bg_color=0D1117&text_color=FFFFFF&icon_color=c322fe&title_color=FFFFFF&hide_border=true) <br>
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zhiqing-Xu&show_icons=true&bg_color=0D1117&text_color=FFFFFF&title_color=FFFFFF&layout=compact&hide_border=true) <br>
 </a>
-</details>
+
 <hr>
 
 ## 🎴 Spotify Recently Played
