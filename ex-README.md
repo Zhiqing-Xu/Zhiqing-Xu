@@ -13,7 +13,7 @@
 
 ### My Stats :
 
-<div>
+
 
 <hr>
 
@@ -30,14 +30,7 @@
 
 <hr>
 
-## 🎴 Spotify Recently Played
-<br>
-<a href="https://open.spotify.com/user/rwu8m7m34mit13j931l5618p5">
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=rwu8m7m34mit13j931l5618p5&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=rwu8m7m34mit13j931l5618p5&redirect=true)
-</a>
-</p>
-</div>
 
 
 ### Contact Me 📬 :
