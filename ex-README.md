@@ -14,8 +14,6 @@
 ## My Stats :
 
 <hr>
-
-
 <a href="https://github.com/Zhiqing-Xu">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
@@ -23,8 +21,6 @@
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=Zhiqing-Xu&include_all_commits=true&show_icons=true&count_private=true&show_owner=true&bg_color=0D1117&text_color=FFFFFF&icon_color=c322fe&title_color=FFFFFF&hide_border=true) <br>
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zhiqing-Xu&show_icons=true&bg_color=0D1117&text_color=FFFFFF&title_color=FFFFFF&layout=compact&hide_border=true) <br>
 </a>
-
-
 <hr>
 
 ## Contact Me 📬 :
