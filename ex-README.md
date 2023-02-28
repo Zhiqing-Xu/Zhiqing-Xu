@@ -15,8 +15,6 @@
 
 <hr>
 
-<p>
-
 
 <a href="https://github.com/Zhiqing-Xu">
 
