@@ -19,7 +19,6 @@
 
 <p>
 
-<summary style="font-size:40px"> 🔖 Some Statistics </summary>
 <a href="https://github.com/Zhiqing-Xu">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
