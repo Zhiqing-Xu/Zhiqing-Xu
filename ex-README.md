@@ -14,6 +14,7 @@
 ### My Stats :
 <div>
 <hr>
+<p>
 <a href="https://github.com/Zhiqing-Xu">
 ![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
 ![Github Streak](https://github-readme-streak-stats.herokuapp.com/?user=Zhiqing-Xu&background=0D1117&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&fire=c322fe&ring=c322fe&hide_border=true) <br>
