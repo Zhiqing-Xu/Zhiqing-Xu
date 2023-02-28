@@ -11,12 +11,9 @@
 </div>
 
 
-### Contact Me 📬 :
+### My Stats :
 
 <div>
-
-<img align="middle" src="https://discord.c99.nl/widget/theme-2/737903565313409095.png">
-</p>
 
 <hr>
 
@@ -41,3 +38,6 @@
 </a>
 </p>
 </div>
+
+
+### Contact Me 📬 :
