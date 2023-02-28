@@ -4,16 +4,18 @@
         <img width="600"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
     </p>
     <p align="left">
-    🎨 [He/Him] • INTP • Student & Self-Passionate Dev <br>
-    ⌨️ Python • Learning Front-end • Visual Studio Code <br>
+    🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
+    ⌨️ Python • Deep Learning • NLP • CV • RL <br>
     🕐 Reading • Music • Quora • Anime • Code • GitHub <br>
+    </p>
+</div>
 
-    ### 📬 Contact Me: <br>
+
+### 📬 Contact Me: <br>
     <img align="middle" src="https://discord.c99.nl/widget/theme-2/737903565313409095.png">
     </p>
 
     <hr>
-
     <p>
     <details>
     <summary style="font-size:40px"> 🔖 Some Statistics </summary>
