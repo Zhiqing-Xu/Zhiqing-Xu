@@ -1,7 +1,9 @@
 ### Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing!
 <div align="left">
+    <p align="left">
+        <img width="600"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
+    </p>
 
-    <img width="600"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
     <p>
     🎨 [He/Him] • INTP • Student & Self-Passionate Dev <br>
     ⌨️ Python • Learning Front-end • Visual Studio Code <br>
@@ -33,5 +35,5 @@
     [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=rwu8m7m34mit13j931l5618p5&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=rwu8m7m34mit13j931l5618p5&redirect=true)
     </a>
     </p>
-    
+
 </div>
