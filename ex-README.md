@@ -25,4 +25,6 @@
 <hr>
 
 
-## Contact Me 📬 : zhiqing.xu@mail.utoronto.ca | palladium.xu@gmail.com
+## Contact Me 📬 : 
+- zhiqing.xu@mail.utoronto.ca 
+- palladium.xu@gmail.com
