@@ -1,7 +1,7 @@
 ## Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing!
 <div align="left">
     <p align="left">
-        <img width="300"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
+        <img width="360"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
     </p>
     <p align="left">
     🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
