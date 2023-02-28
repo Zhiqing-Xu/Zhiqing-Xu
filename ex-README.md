@@ -11,9 +11,7 @@
 </div>
 
 
-## My Stats :
-
-![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
+## My Stats : ![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
 
 <hr>
 <a href="https://github.com/Zhiqing-Xu">
