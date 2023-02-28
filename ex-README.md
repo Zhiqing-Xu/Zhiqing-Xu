@@ -1,4 +1,4 @@
-### Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing!
+## Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing!
 <div align="left">
     <p align="left">
         <img width="600"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
@@ -11,9 +11,7 @@
 </div>
 
 
-### My Stats :
-
-
+## My Stats :
 
 <hr>
 
@@ -28,9 +26,7 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zhiqing-Xu&show_icons=true&bg_color=0D1117&text_color=FFFFFF&title_color=FFFFFF&layout=compact&hide_border=true) <br>
 </a>
 
+
 <hr>
 
-
-
-
-### Contact Me 📬 :
+## Contact Me 📬 :
