@@ -6,7 +6,7 @@
     <p align="left">
     🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
     ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
-    🕐 Reading • Music • Quora • Movie • Code • GitHub <br>
+    🕐 LMSE • Biozone • UofT • Toronto • :canada:  <br>
     </p>
 </div>
 
