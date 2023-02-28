@@ -3,8 +3,7 @@
     <p align="left">
         <img width="600"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/cdl-calling-card-press-f.gif> <!-- Banner Here-->
     </p>
-
-    <p>
+    <p align="left">
     🎨 [He/Him] • INTP • Student & Self-Passionate Dev <br>
     ⌨️ Python • Learning Front-end • Visual Studio Code <br>
     🕐 Reading • Music • Quora • Anime • Code • GitHub <br>
