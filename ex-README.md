@@ -22,7 +22,10 @@
 </a>
 
 
-
 <hr>
 
-## Contact Me 📬 :
+<p align="left">
+    <img width="600"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/bruce-almighty-keyboard-warrior.gif> <!-- Banner Here-->
+</p>
+
+## Contact Me 📬 : zhiqing.xu@mail.utoronto.ca | palladium.xu@gmail.com
