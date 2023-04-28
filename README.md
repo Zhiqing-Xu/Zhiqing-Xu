@@ -1,5 +1,4 @@
 ## Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing! 
-- HomePage: [zhiqing-xu.github.io](https://zhiqing-xu.github.io)
 
 <div align="left">
     <p align="left">
@@ -10,6 +9,7 @@
         🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
         ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
         🕐 LMSE • Biozone • University of Toronto • 🍁🇨🇦  <br>
+        HomePage: [zhiqing-xu.github.io](https://zhiqing-xu.github.io)
         </font>
     </p>
 </div>
