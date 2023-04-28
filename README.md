@@ -1,4 +1,4 @@
-## Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing! 
+## Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Zhiqing! (HomePage: [zhiqing-xu.github.io](https://zhiqing-xu.github.io))
 
 <div align="left">
     <p align="left">
@@ -12,8 +12,6 @@
         </font>
     </p>
 </div>
-
-- HomePage: [zhiqing-xu.github.io](https://zhiqing-xu.github.io)
 
 ## My Stats : ![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
 
