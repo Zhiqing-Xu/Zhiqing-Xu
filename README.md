@@ -53,7 +53,6 @@
 - [Course_2023_W_CSC2511](https://github.com/Zhiqing-Xu/Course_2023_W_CSC2511)
 - [Course_2023_W_MIE1624](https://github.com/Zhiqing-Xu/Course_2023_W_MIE1624)
 - [DCGAN-SRGAN](https://github.com/Zhiqing-Xu/DCGAN-SRGAN)
-- [DCGAN_restore](https://github.com/Zhiqing-Xu/DCGAN_restore)
 - [EXE](https://github.com/Zhiqing-Xu/EXE)
 - [KinMod](https://github.com/Zhiqing-Xu/KinMod)
 - [KM_prediction](https://github.com/Zhiqing-Xu/KM_prediction)
