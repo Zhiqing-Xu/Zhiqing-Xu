@@ -9,11 +9,12 @@
         🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
         ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
         🕐 LMSE • Biozone • University of Toronto • 🍁🇨🇦  <br>
-        HomePage: [zhiqing-xu.github.io](https://zhiqing-xu.github.io)
+        
         </font>
     </p>
 </div>
 
+- HomePage: [zhiqing-xu.github.io](https://zhiqing-xu.github.io)
 
 ## My Stats : ![Profile Views](https://komarev.com/ghpvc/?username=Zhiqing-Xu&style=flat-square&color=c322fe) <br>
 
