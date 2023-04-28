@@ -9,7 +9,6 @@
         🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
         ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
         🕐 LMSE • Biozone • University of Toronto • 🍁🇨🇦  <br>
-        
         </font>
     </p>
 </div>
