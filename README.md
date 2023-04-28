@@ -4,9 +4,11 @@
         <img width="540"   src=https://github.com/Zhiqing-Xu/Zhiqing-Xu/blob/main/assets/RoboticMaternity_CallingCard_MWII.webp> <!-- Banner Here-->
     </p>
     <p align="left">
-    🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
-    ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
-    🕐 LMSE • Biozone • University of Toronto • 🍁🇨🇦  <br>
+        <font size="20"> 
+        🎨 INTP • PhD Student • Passionate Self-Taught Dev <br>
+        ⌨️ Python • Deep Learning • NLP • Bioinformatics <br>
+        🕐 LMSE • Biozone • University of Toronto • 🍁🇨🇦  <br>
+        </font>
     </p>
 </div>
 
