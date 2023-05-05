@@ -26,16 +26,17 @@
 
 <hr>
 
-
 ## Contact Me 📬 : 
 - zhiqing.xu@mail.utoronto.ca
 - palladium.xu@gmail.com
 
+
+
 ## All Repo :
 - [312-Exam](https://github.com/Zhiqing-Xu/312-Exam)
-- [All_Papers](https://github.com/Zhiqing-Xu/All_Papers)
+- [All_Documents](https://github.com/Zhiqing-Xu/All_Documents)
+- [All_Literatures](https://github.com/Zhiqing-Xu/All_Literatures)
 - [All_Publications](https://github.com/Zhiqing-Xu/All_Publications)
-- [All_Slides](https://github.com/Zhiqing-Xu/All_Slides)
 - [All_Songs](https://github.com/Zhiqing-Xu/All_Songs)
 - [Anneal-Path](https://github.com/Zhiqing-Xu/Anneal-Path)
 - [ART_Modified](https://github.com/Zhiqing-Xu/ART_Modified)
@@ -43,15 +44,17 @@
 - [Chat_leon](https://github.com/Zhiqing-Xu/Chat_leon)
 - [Cmpd_Ezym_Pred_HeteroGAT](https://github.com/Zhiqing-Xu/Cmpd_Ezym_Pred_HeteroGAT)
 - [Cmpd_Prot_Interact_Pred_v2.0](https://github.com/Zhiqing-Xu/Cmpd_Prot_Interact_Pred_v2.0)
-- [CompoundData](https://github.com/Zhiqing-Xu/CompoundData)
+- [Compound_Data](https://github.com/Zhiqing-Xu/Compound_Data)
 - [Compound_Protein_Interact_Pred](https://github.com/Zhiqing-Xu/Compound_Protein_Interact_Pred)
-- [Courses_2023_W](https://github.com/Zhiqing-Xu/Courses_2023_W)
 - [Course_2022_W_CSC2511](https://github.com/Zhiqing-Xu/Course_2022_W_CSC2511)
 - [Course_2023_W_APS1080](https://github.com/Zhiqing-Xu/Course_2023_W_APS1080)
 - [Course_2023_W_CSC2511](https://github.com/Zhiqing-Xu/Course_2023_W_CSC2511)
+- [Course_2023_W_CSC2516](https://github.com/Zhiqing-Xu/Course_2023_W_CSC2516)
 - [Course_2023_W_MIE1624](https://github.com/Zhiqing-Xu/Course_2023_W_MIE1624)
 - [DCGAN-SRGAN](https://github.com/Zhiqing-Xu/DCGAN-SRGAN)
 - [EXE](https://github.com/Zhiqing-Xu/EXE)
+- [Filter_Life_Measurement](https://github.com/Zhiqing-Xu/Filter_Life_Measurement)
+- [Interacted_Compound_Protein_Dataset](https://github.com/Zhiqing-Xu/Interacted_Compound_Protein_Dataset)
 - [KinMod](https://github.com/Zhiqing-Xu/KinMod)
 - [KM_prediction](https://github.com/Zhiqing-Xu/KM_prediction)
 - [leetcode-java](https://github.com/Zhiqing-Xu/leetcode-java)
@@ -76,5 +79,6 @@
 - [VT_guided-inpainting-rwml](https://github.com/Zhiqing-Xu/VT_guided-inpainting-rwml)
 - [VT_stable-diffusion-rwml](https://github.com/Zhiqing-Xu/VT_stable-diffusion-rwml)
 - [Zhiqing-Xu](https://github.com/Zhiqing-Xu/Zhiqing-Xu)
-- [Zhiqing-Xu-Get-Repo](https://github.com/Zhiqing-Xu/Zhiqing-Xu-Get-Repo)
+- [Zhiqing-Xu-Repo-Tools](https://github.com/Zhiqing-Xu/Zhiqing-Xu-Repo-Tools)
 - [Zhiqing-Xu.github.io](https://github.com/Zhiqing-Xu/Zhiqing-Xu.github.io)
+
