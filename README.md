@@ -26,16 +26,23 @@
 
 <hr>
 
-
 ## Contact Me 📬 : 
 - zhiqing.xu@mail.utoronto.ca
 - palladium.xu@gmail.com
 
+
+
 ## All Repo :
 - [312-Exam](https://github.com/Zhiqing-Xu/312-Exam)
+<<<<<<< HEAD
 - [All_Literatures](https://github.com/Zhiqing-Xu/All_Literatures)
 - [All_Papers](https://github.com/Zhiqing-Xu/All_Papers)
 - [All_Slides](https://github.com/Zhiqing-Xu/All_Slides)
+=======
+- [All_Documents](https://github.com/Zhiqing-Xu/All_Documents)
+- [All_Literatures](https://github.com/Zhiqing-Xu/All_Literatures)
+- [All_Publications](https://github.com/Zhiqing-Xu/All_Publications)
+>>>>>>> c35db02cd5e9d27af291a3cf333cacb84d6ddb3f
 - [All_Songs](https://github.com/Zhiqing-Xu/All_Songs)
 - [Anneal-Path](https://github.com/Zhiqing-Xu/Anneal-Path)
 - [ART_Modified](https://github.com/Zhiqing-Xu/ART_Modified)
@@ -52,6 +59,8 @@
 - [Course_2023_W_MIE1624](https://github.com/Zhiqing-Xu/Course_2023_W_MIE1624)
 - [DCGAN-SRGAN](https://github.com/Zhiqing-Xu/DCGAN-SRGAN)
 - [EXE](https://github.com/Zhiqing-Xu/EXE)
+- [Filter_Life_Measurement](https://github.com/Zhiqing-Xu/Filter_Life_Measurement)
+- [Interacted_Compound_Protein_Dataset](https://github.com/Zhiqing-Xu/Interacted_Compound_Protein_Dataset)
 - [KinMod](https://github.com/Zhiqing-Xu/KinMod)
 - [KM_prediction](https://github.com/Zhiqing-Xu/KM_prediction)
 - [leetcode-java](https://github.com/Zhiqing-Xu/leetcode-java)
@@ -77,4 +86,9 @@
 - [VT_stable-diffusion-rwml](https://github.com/Zhiqing-Xu/VT_stable-diffusion-rwml)
 - [Zhiqing-Xu](https://github.com/Zhiqing-Xu/Zhiqing-Xu)
 - [Zhiqing-Xu-Repo-Tools](https://github.com/Zhiqing-Xu/Zhiqing-Xu-Repo-Tools)
+<<<<<<< HEAD
 - [Zhiqing-Xu.github.io](https://github.com/Zhiqing-Xu/Zhiqing-Xu.github.io)
+=======
+- [Zhiqing-Xu.github.io](https://github.com/Zhiqing-Xu/Zhiqing-Xu.github.io)
+
+>>>>>>> c35db02cd5e9d27af291a3cf333cacb84d6ddb3f
