@@ -1,0 +1,251 @@
+%------------------------
+% Resume Template
+% Author : Zhiqing Xu
+% Github : https://github.com/Zhiqing-Xu
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    #1 {#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+      \textit{#3} & #4 \\
+    \end{tabular*}\vspace{0pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-2pt}}
+
+\newenvironment{resumeItemList}{
+    \begin{list}{}{ % your formatting for the list here
+      \setlength{\leftmargin}{0em} % for example
+      \setlength{\itemsep}{0.25em} % for example
+    }
+}{
+    \end{list}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{}
+\newcommand{\resumeSubHeadingListEnd}{}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0pt]\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% HEADING
+
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Zhiqing Xu}} & Email: \href{mailto:zhiqing.xu@mail.utoronto.ca}{zhiqing.xu@mail.utoronto.ca}\\
+  Homepage: \href{https://zhiqing-xu.github.io/}{zhiqing-xu.github.io} & Mobile:~~~+1(647)-391-5399 \\
+  Github: \href{https://github.com/Zhiqing-Xu}{~~~~github.com/Zhiqing-Xu} \\
+\end{tabular*}
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% Education
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ph.D., Chemical Engineering, University of Toronto} {Sep 2019 - Present}
+      {Research Area: protein generative modeling based on Natural language processing (NLP)} {}
+
+    \resumeSubheading
+      {M.A.Sc, Chemical Engineering, University of Toronto , \textbf{cGPA 3.87}}{Sep 2017 - Sep 2019}
+      {Research Area: Biochemical pathway planning based on directed hypergraph and deep learning.} {}
+
+    \resumeSubheading
+      {B.A.Sc, Chemical Engineering, University of Toronto , \textbf{cGPA 3.69}}{Sep 2013 - May 2017}
+      {Honors and Awards: }{}
+
+     {\begin{itemize}
+      \item \textbf{UTEA, University of Toronto Excellence Award.} (2017). \vspace{-5pt}
+      \item CGCS (The Center for Global Change Science) Summer Research Scholarship. (2015) \vspace{-5pt}
+      \item Dean’s Honor List. (2013-2017) \vspace{-5pt}
+      \end{itemize}
+      }
+      
+    {\textbf{Relevant Courses:} Cloud-Based Data Analytics, Deep Learning in Finance, Natural Language Processing, Real Analysis, Probability, Applied Stochastic Processes, Statistical Methods for Machine Learning, Time Series Analysis, Mathematical Statistics, Statistical Computation, Financial Engineering, Database.
+    }
+  \resumeSubHeadingListEnd
+  
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% Skills Summary 
+\vspace{-1pt}
+\section{Skills Summary}
+\begin{tabular}{@{}ll}
+\textbf{Programming} & ~~Python, C++, JavaScript, HTML5, CSS, SQL, Matlab, R, Bash    \\
+\textbf{Frameworks}  & ~~PyTorch, TensorFlow, NLTK, SpaCy, NodeJS, Apache Spark       \\
+\textbf{Tools}       & ~~Docker, GIT, PostgreSQL, MySQL, Databricks                   \\
+\textbf{Platforms}   & ~~Azure, AWS, GCP, Alibaba Cloud                               \\
+\textbf{CAD Tools}   & ~~SolidWorks, Autodesk CFD, Inventor, Blender, AutoCAD         \\
+\end{tabular}
+
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% Publications 
+\vspace{1pt}
+\section{Publications}
+\resumeSubHeadingListStart
+
+    \begin{resumeItemList}
+    
+        \resumeSubItem{}{Xu, Z., Mahadevan, R. (2022). \textbf{Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels} \textit{Biotechnology},  84, 103007 \url{https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179}
+        }
+
+        \resumeSubItem{}{Xu, Z., Mahadevan, R. (2022). \textbf{Efficient Enumeration of Branched Novel Biochemical Pathways Using a Probabilistic Technique} \textit{Ind. Eng. Chem. Res.},  61, 25, 8645–8657 \url{https://pubs.acs.org/doi/10.1021/acs.iecr.1c02211}
+        }
+        
+        \vspace{1pt}
+        \resumeSubItem{}{Xu, Z., Wu, J., Song, Y.S., Mahadevan, R. (2022). \textbf{Enzyme Activity Prediction of Sequence Variants on Novel Substrates using Improved Substrate Encodings and Convolutional Pooling} \textit{Proceedings of the 16th Machine Learning in Computational Biology meeting}, PMLR, \textbf{165}, 78--87. \url{https://proceedings.mlr.press/v165/xu22a.html}
+        }
+        
+        \vspace{1pt}
+        \resumeSubItem{}{
+        Biz, A., Proulx, S., Xu, Z., Siddartha, K., Indrayanti, A.M., Mahadevan, R. (2019). \textbf{Systems biology based metabolic engineering for non-natural chemicals} \textit{Biotechnology advances}, \textbf{37}, (6):107379. \url{https://doi.org/10.1016/j.biotechadv.2019.04.001}
+        }
+        
+        \vspace{1pt}
+        \resumeSubItem{}{Xu, Z., Mahadevan, R. (2018). \textbf{Efficient Biochemical Pathway Prediction Using Simulated Annealing} \textit{IFAC-PapersOnLine}, \textbf{51}(19), 56--57. \url{https://doi.org/10.1016/j.ifacol.2018.09.041}
+        }
+        
+    \end{resumeItemList}
+    
+\resumeSubHeadingListEnd
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% Experience
+\vspace{1pt}
+\section{Research/Technical Experiences}
+\resumeSubHeadingListStart
+
+    \resumeSubheading{\textbf{Ph.D. Candidate}, LMSE Lab, http://lmse.utoronto.ca/ }{Sep 2019 – present}
+    {Univerisity of Toronto}{}
+    
+    \resumeItemListStart
+        \resumeItem{}
+        {Protein sequence-to-function learning based on state-of-the-art natural language processing (NLP) techniques.}
+        \resumeItem{}
+        {Protein sequence generative modeling and deep learning-based protein design.}
+    \resumeItemListEnd
+
+      
+\vspace{1pt}
+
+    \resumeSubheading{\textbf{Research Assistant (and M.A.Sc student)} }{Sep 2017 – Sep 2019}
+    {Univerisity of Toronto}{}
+    
+    \resumeItemListStart
+        \resumeItem{}
+        {Learning a New Chemical Similarity Metric Based on Extended Connectivity Fingerprint, Molecular Autoencoder and Artificial Neural Networks}
+        \resumeItem{}
+        {Presented the results at Canadian Chemical Engineering Conference (68th CsChE, 2018) and Industrial Biocatalysis Network Annual Meeting.}
+        \resumeItem{}
+        {Completed SciNet courses: Advanced Neural Networks, Advanced Shell Programming and Programming GPUs with CUDA}
+    \resumeItemListEnd
+
+
+\vspace{1pt}
+
+    \resumeSubheading{\textbf{Research Assistant} }{Sep 2016 – Sep 2017}
+    {Southern Ontario Centre for Atmospheric Aerosol Research (SOCAAR)}{}
+    
+    \resumeItemListStart
+        \resumeItem{}
+        {Researched on "Elemental Characterization of PM2.5 in Street dust". Designed a device to separate PM2.5 from dust samples. Obtained chemical profiles of PM2.5 from different sources and analyzed the compositions.}
+        \resumeItem{}
+        {Performed air quality assessment for trains emissions and subway station air pollution.}
+        \resumeItem{}
+        {Visualized and managed complex data sets in useful ways to help facilitate quantitative arguments. Interpreted and analyzed data to draw conclusion.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% Experience
+\vspace{1pt}
+\section{Other Experiences/Projects}
+\resumeSubHeadingListStart
+
+\vspace{1pt}
+
+    \resumeSubheading{\textbf{Evaluate Remaining Life of Aircraft System Filters} }{Sep 2016 – May 2017}
+    {Bombardier Aerospace}{}
+    
+    \resumeItemListStart
+        \resumeItem{}
+        {Worked collectively to design a portable system that can be used to evaluate the remaining life of different types of air filters.}
+        \resumeItem{}
+        {Used computational fluid dynamic analysis (Autodesk CFD) to aid design of the measuring system.}
+        \resumeItem{}
+        {Modeled the measuring system in SolidWorks/Inventor and built a prototype based on the final design.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}

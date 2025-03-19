@@ -1,0 +1,380 @@
+%------------------------
+% Resume Template
+% Author : Zhiqing Xu
+% Github : https://github.com/Zhiqing-Xu
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref} % Default link color is blue
+
+\usepackage{soul}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor} 
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-6pt}]
+
+
+%-------------------------
+% Custom Commands with Reduced Spacing
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+
+
+\newcommand{\resumeThreeByTwo}[6]{%
+  \vspace{1pt}%
+  \begin{tabular*}{1.00\textwidth}{l@{\extracolsep{\fill}}r}
+    #1 & #2 \\
+    #3 & \textit{#4} \\
+    #5 & \textit{#6} \\
+  \end{tabular*}%
+  \vspace{1pt}%
+}
+
+\newcommand{\resumeTwoByTwo}[4]{%
+  \vspace{1pt}%
+  \begin{tabular*}{1.00\textwidth}{l@{\extracolsep{\fill}}r}
+    #1 & #2 \\
+    #3 & \textit{#4} \\
+  \end{tabular*}%
+  \vspace{1pt}%
+}
+
+\newcommand{\resumeOneByTwo}[2]{%
+  \vspace{1pt}%
+  \begin{tabular*}{1.00\textwidth}{l@{\extracolsep{\fill}}r}
+    #1 & #2 \\
+  \end{tabular*}%
+  \vspace{1pt}%
+}
+
+
+\newenvironment{resumePublicationItems}{%
+  \begingroup
+  \fontsize{10pt}{12pt}\selectfont  % Set font size to 10pt with 12pt line spacing
+  \setlength{\parskip}{0pt}         % Space between paragraphs within an item
+  \setlength{\baselineskip}{12pt}   % Line spacing within an item
+  \begin{list}{$\bullet$}{          % Use bullet (•) as item marker
+    \setlength{\leftmargin}{1em}    % Adjust left margin for indentation
+    \setlength{\itemsep}{2pt}       % Adjust spacing between items
+    \setlength{\topsep}{2pt}        % Adjust spacing between the list and surrounding text
+    \setlength{\parsep}{2pt}        % Adjust paragraph spacing inside an item
+  }
+}
+{
+  \end{list}%
+  \endgroup % End the local group
+}
+
+
+\newcommand{\resumeUnusedItemtype}[4]{%
+  \vspace{0pt}%
+  \begin{tabular}{p{0.93\textwidth} r}
+    {\fontsize{9pt}{11pt}\selectfont \textbf{#1}\setlength{\baselineskip}{11pt}} & #2 \vspace{-2pt}
+  \end{tabular}%
+  \\ ~~#3 \vspace{-2pt}
+  \\ ~~#4 
+  \vspace{1pt}%
+}
+
+
+
+\newcommand{\resumeTechHeading}[4]{%
+  \vspace{0pt}%
+  \begin{tabular*}{1.00\textwidth}{l@{\extracolsep{\fill}}r}
+    #1 & #2 \\
+    #3 & \textit{#4} \\
+  \end{tabular*}%
+  \vspace{1pt}%
+}
+
+
+\newenvironment{resumeTechItems}{%
+  \begingroup
+  \fontsize{10pt}{12pt}\selectfont   % Set font size to 10pt with 12pt line spacing
+  \setlength{\parskip}{0pt}          % Space between paragraphs within an item
+  \setlength{\baselineskip}{12pt}    % Line spacing within an item
+  \begin{list}{$\bullet$}{           % Use bullet (•) as item marker
+    \setlength{\leftmargin}{1.3em}   % Adjust left margin for indentation
+    \setlength{\rightmargin}{0.2em}  % Adjust left margin for indentation
+    \setlength{\itemsep}{-2pt}       % Adjust spacing between items
+    \setlength{\topsep}{1pt}         % Adjust spacing between the list and surrounding text
+    \setlength{\parsep}{2pt}         % Adjust paragraph spacing inside an item
+  }
+}
+{
+  \end{list}%
+  \endgroup % End the local group
+}
+
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=3pt, topsep=3pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+\newcommand{\resumeItem}[2]{%
+  \item\small{#1 #2}%
+}
+
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+% HEADING
+
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Zhiqing Xu}} & LinkedIn:~\href{https://www.linkedin.com/in/zhiqing-xu/}{linkedin.com/in/zhiqing-xu}  \\
+  Homepage: \href{https://zhiqing-xu.github.io/}{zhiqing-xu.github.io} & Email: \href{mailto:zhiqing.xu@mail.utoronto.ca}{zhiqing.xu@mail.utoronto.ca}\\
+  Github: \href{https://github.com/Zhiqing-Xu}{~~~~github.com/Zhiqing-Xu} & Mobile:~+1(647)-391-5399 \\
+\end{tabular*}
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+%  `7MM"""YMM  `7MM"""Yb. `7MMF'   `7MF' .g8"""bgd     db  MMP""MM""YMM          %
+%    MM    `7    MM    `Yb. MM       M .dP'     `M    ;MM: P'   MM   `7          %
+%    MM   d      MM     `Mb MM       M dM'       `   ,V^MM.     MM               %
+%    MMmmMM      MM      MM MM       M MM           ,M  `MM     MM               %
+%    MM   Y  ,   MM     ,MP MM       M MM.          AbmmmqMA    MM               %
+%    MM     ,M   MM    ,dP' YM.     ,M `Mb.     ,' A'     VML   MM               %
+%  .JMMmmmmMMM .JMMmmmdP'    `bmmmmd"'   `"bmmmd'.AMA.   .AMMA.JMML.             %
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+% Education
+\section{Education}
+
+\resumeThreeByTwo
+  {\textbf{Ph.D., Chemical Engineering, University of Toronto}} {(2020 - Present)}
+  {~~~PhD Thesis: \textit{A Deep Learning and GenAI-Guided Directed Evolution Framework for Protein Design}} {}
+  {~~~Supervisor: \textit{Radhakrishnan Mahadevan, krishna.mahadevan@utoronto.ca}}{}
+
+\resumeTwoByTwo
+  {M.A.Sc, Chemical Engineering, University of Toronto , \textbf{cGPA 3.9}}{(2017 - 2019)}
+  {~~~Thesis: \textit{Deep Learning-Based Biochemical Reaction Pathway Prediction}} {}
+
+\resumeTwoByTwo
+  {B.A.Sc, Chemical Engineering, University of Toronto}{(2013 - 2017)}
+  {~~~Graduate with Honour}{}
+
+\vspace{2pt}
+
+{\textbf{Relevant Courses}: Natural Language Processing, Deep Learning in Finance, Cloud-Based Data Analytics, Statistical Methods for Machine Learning, Probability, Applied Stochastic Processes, Time Series Analysis, Mathematical Statistics, Statistical Computation, Database.
+}
+
+\vspace{2pt}
+
+{\textbf{Academic Awards}: 
+{\begin{itemize}
+  \vspace{-8pt}
+  \item Doctoral Completion Award, University of Toronto. (2024, 2025). \vspace{-8pt}
+  \item School of Graduate Study (SGS) Award, University of Toronto. (2020, 2023). \vspace{-8pt}
+  \item UTEA, University of Toronto Excellence Award. (2017). \vspace{-8pt}
+  \end{itemize}
+  }
+}
+
+
+
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+%     .M"""bgd `7MMF' `YMM'`7MMF'`7MMF'      `7MMF'       .M"""bgd               %
+%    ,MI    "Y   MM   .M'    MM    MM          MM        ,MI    "Y               %
+%    `MMb.       MM .d"      MM    MM          MM        `MMb.                   %
+%      `YMMNq.   MMMMM.      MM    MM          MM          `YMMNq.               %
+%    .     `MM   MM  VMA     MM    MM      ,   MM      , .     `MM               %
+%    Mb     dM   MM   `MM.   MM    MM     ,M   MM     ,M Mb     dM               %
+%    P"Ybmmd"  .JMML.   MMb.JMML..JMMmmmmMMM .JMMmmmmMMM P"Ybmmd"                %
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+% Skills Summary 
+\vspace{-1pt}
+\section{Skills Summary}
+
+\begin{tabular}{@{}ll}
+\textbf{Frameworks}    & ~~PyTorch, TensorFlow, MXNet, NLTK, SpaCy, NodeJS, Apache Spark  \\
+\textbf{Programming}   & ~~Python, C/C++, JavaScript, HTML5, CSS, SQL, Matlab, R, Bash    \\
+\textbf{DevOps}        & ~~Bash, Git, Docker, PostgreSQL, MySQL, Databricks               \\
+\textbf{Platforms}     & ~~Azure, AWS, GCP, Alibaba Cloud                                 \\
+\textbf{CAD Tools}     & ~~SolidWorks, Autodesk CFD, Inventor, Blender, AutoCAD           \\
+\end{tabular}
+
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+%   `7MM"""Mq.`7MMF'   `7MF'`7MM"""Yp, `7MMF'      `7MMF' .g8"""bgd              %
+%     MM   `MM. MM       M    MM    Yb   MM          MM .dP'     `M              %
+%     MM   ,M9  MM       M    MM    dP   MM          MM dM'       `              %
+%     MMmmdM9   MM       M    MM"""bg.   MM          MM MM                       %
+%     MM        MM       M    MM    `Y   MM      ,   MM MM.                      %
+%     MM        YM.     ,M    MM    ,9   MM     ,M   MM `Mb.     ,'              %
+%   .JMML.       `bmmmmd"'  .JMMmmmd9  .JMMmmmmMMM .JMML. `"bmmmd'               %
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+% Publications 
+\vspace{-1pt}
+\section{Selected Publications}
+
+\begin{resumePublicationItems}
+  
+          
+  \item{
+    Xu, Z., Barghout, R. A., Wu, J., Garg, D., Song, Y. S., Mahadevan, R. (2025). 
+    \hypersetup{urlcolor=black}
+    \href{https://doi.org/10.1101/2025.01.16.633372}{\textbf{CPI-Pred: A deep learning framework for predicting compound-protein interactions}}
+    \textit{Preprint}
+    \hypersetup{urlcolor=blue}
+    \href{https://doi.org/10.1101/2025.01.16.633372}{\ExternalLink}
+  }
+  
+  \item{
+    Barghout, R. A, Xu, Z., Mahadevan, R. (2023). 
+    \hypersetup{urlcolor=black}
+    \href{https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179}{\textbf{Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels}}
+    \textit{Biotechnology}, 84, 103007
+    \hypersetup{urlcolor=blue}
+    \href{https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179}{\ExternalLink}
+  }
+
+  \item{
+    Xu, Z., Mahadevan, R. (2022).
+    \hypersetup{urlcolor=black}
+    \href{https://pubs.acs.org/doi/10.1021/acs.iecr.1c02211}{\textbf{Efficient Enumeration of Branched Novel Biochemical Pathways Using a Probabilistic Technique}}
+    \textit{Ind. Eng. Chem. Res.},  \textbf{61}, 25, 8645–8657
+    \hypersetup{urlcolor=blue}
+    \href{https://pubs.acs.org/doi/10.1021/acs.iecr.1c02211}{\ExternalLink}
+  }
+  
+  \item{
+    Xu, Z., Wu, J., Song, Y.S., Mahadevan, R. (2022). 
+    \hypersetup{urlcolor=black}
+    \href{https://proceedings.mlr.press/v165/xu22a.html}{\textbf{Enzyme Activity Prediction of Sequence Variants on Novel Substrates using Improved Substrate Encodings and Convolutional Pooling}}
+    \textit{Proceedings of the 16th Machine Learning in Computational Biology meeting}, PMLR, \textbf{165}, 78--87
+    \hypersetup{urlcolor=blue}
+    \href{https://proceedings.mlr.press/v165/xu22a.html}{\ExternalLink}
+  }
+
+  \item{
+    Biz, A., Proulx, S., Xu, Z., Siddartha, K., Indrayanti, A.M., Mahadevan, R. (2019). 
+    \hypersetup{urlcolor=black}
+    \href{https://doi.org/10.1016/j.biotechadv.2019.04.001}{\textbf{Systems biology based metabolic engineering for non-natural chemicals}}
+    \textit{Biotechnology advances}, \textbf{37}, (6):107379
+    \hypersetup{urlcolor=blue}
+    \href{https://doi.org/10.1016/j.biotechadv.2019.04.001}{\ExternalLink}
+  }
+  
+
+\end{resumePublicationItems}
+
+
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+%  MMP""MM""YMM `7MM"""YMM    .g8"""bgd `7MMF'  `7MMF'`7MN.   `7MF'`7MMF'        %
+%  P'   MM   `7   MM    `7  .dP'     `M   MM      MM    MMN.    M    MM          %
+%       MM        MM   d    dM'       `   MM      MM    M YMb   M    MM          %
+%       MM        MMmmMM    MM            MMmmmmmmMM    M  `MN. M    MM          %
+%       MM        MM   Y  , MM.           MM      MM    M   `MM.M    MM          %
+%       MM        MM     ,M `Mb.     ,'   MM      MM    M     YMM    MM          %
+%     .JMML.    .JMMmmmmMMM   `"bmmmd'  .JMML.  .JMML..JML.    YM  .JMML.        %
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+% Experience
+\vspace{-1pt}
+\section{Research \& Technical Experience}
+
+
+\hypersetup{urlcolor=black}
+\resumeTechHeading{\textbf{Ph.D. Candidate}, LMSE Lab, \href{http://lmse.utoronto.ca/}{lmse.utoronto.ca}}{(2020 – Present)}
+{University of Toronto}{}
+
+\begin{resumeTechItems}
+  \item{Built reaction-guided \textbf{generative AI (genAI)} models for protein design with discrete denoising diffusion models.}
+  \item{Developed heterogeneous graph neural networks for compound-protein interaction and reaction property prediction.}
+  \item{Built deep learning models for protein function prediction using \textbf{natural language processing (NLP)} techniques.}
+  \item{Implemented large-scale sequence representation learning for protein functional annotation.}
+\end{resumeTechItems}
+
+
+\resumeTechHeading{\textbf{Research Assistant \& M.A.Sc. Student}}{(2017 – 2019)}
+{University of Toronto}{}
+
+\begin{resumeTechItems}
+  \item{Developed a biochemical pathway design computation tool using autoencoders and graph neural networks.}
+  \item{Designed deep learning models for molecular property prediction, improving accuracy over SOTA models.}
+\end{resumeTechItems}
+
+
+\resumeTechHeading{\textbf{Research Assistant}}{(2016 – 2017)}
+{Southern Ontario Centre for Atmospheric Aerosol Research (SOCAAR)}{}
+
+\begin{resumeTechItems}
+  \item{Designed and built a device to isolate PM2.5 from street dust, enabling precise elemental composition analysis.}
+  \item{Conducted air pollution assessments on train emissions, analyzing particulate matter composition and distribution.}
+  \item{Developed data visualization pipelines for managing and interpreting large-scale environmental datasets.}
+\end{resumeTechItems}
+
+
+\resumeTechHeading{\textbf{Engineer Intern}}{(2016 – 2017)}
+{Bombardier Aerospace}{}
+
+\begin{resumeTechItems}
+  \item{Worked collectively to develop a portable system to evaluate the remaining life of aircraft air filters.}
+  \item{Performed computational fluid dynamics (CFD) simulations using Autodesk CFD to optimize system design.}
+  \item{Modeled the measuring system in SolidWorks/Inventor and built a functional prototype.}
+\end{resumeTechItems}
+
+
+\end{document}
